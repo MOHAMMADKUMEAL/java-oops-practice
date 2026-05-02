@@ -65,7 +65,7 @@ public class EmployeeEncapsulation {
 
         Employee emp = new Employee();
 
-        // Taking input
+        // Taking employee ID input
         emp.setEmpId(sc.nextInt());
         sc.nextLine(); // consume newline
 

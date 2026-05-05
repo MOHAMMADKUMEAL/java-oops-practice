@@ -29,4 +29,4 @@ phone
 salary  
 
 ## Concept Used
-Encapsulation (private variables + public getter/setter methods).
+Encapsulation (private variables + public getter/setter methods)

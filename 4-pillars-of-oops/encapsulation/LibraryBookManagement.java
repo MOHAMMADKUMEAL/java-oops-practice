@@ -7,6 +7,10 @@ class Book {
     private String author;
     private float price;
 
+    //Constructor
+    publc Book(){}
+
+    
     // Getter methods
     public String getISBN() {
         return ISBN;

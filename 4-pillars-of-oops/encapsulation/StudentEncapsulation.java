@@ -47,20 +47,20 @@ public class StudentEncapsulation {
 
         Scanner sc = new Scanner(System.in);
 
-        Student s = new Student();
+        Student student = new Student();
 // Taking student details as input
-        s.setId(sc.nextInt());
+        student.setId(sc.nextInt());
         sc.nextLine();
 
-        s.setName(sc.nextLine());
-        s.setAge(sc.nextInt());
+        student.setName(sc.nextLine());
+        student.setAge(sc.nextInt());
         sc.nextLine();
-        s.setGrade(sc.nextLine());
+        student.setGrade(sc.nextLine());
 
-        System.out.println(s.getId());
-        System.out.println(s.getName());
-        System.out.println(s.getAge());
-        System.out.println(s.getGrade());
+        System.out.println(student.getId());
+        System.out.println(student.getName());
+        System.out.println(student.getAge());
+        System.out.println(student.getGrade());
 
         sc.close();
     }

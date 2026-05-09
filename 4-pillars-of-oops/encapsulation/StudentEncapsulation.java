@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// Student class demonstrating encapsulation
 
 class Student {
     private int id;
@@ -45,7 +46,7 @@ public class StudentEncapsulation {
         Scanner sc = new Scanner(System.in);
 
         Student s = new Student();
-
+// Taking student details as input
         s.setId(sc.nextInt());
         sc.nextLine();
 

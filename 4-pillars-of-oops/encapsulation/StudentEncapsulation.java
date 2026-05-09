@@ -2,6 +2,8 @@ import java.util.Scanner;
 // Student class demonstrating encapsulation
 
 class Student {
+    // Input validation constraints:
+    // id and age should be positive
     private int id;
     private String name;
     private int age;
